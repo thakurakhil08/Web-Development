@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* transform: rotate(40deg); */
+            /* transform: rotate(0.25turn);  90 Degree Rotate  */
+            /* transform: rotate(0.5turn);  180 Degree Rotate  */
+            /* transform: rotateX(40deg);   X - Axis me rotate hoga 40 deg  */
+            /* transform: rotatey(40deg);   Y Axis me rotate hoga 40 deg  */
+            /* transform: rotateZ(40deg);  Z Axis me rotate hoga 40 deg  */
+            /* transform: scale(1.6);   1.6 times bada hogaa  */
+            /* transform: scaleX(1.6);  X Axis me bada hoga 1.6 times  */
+            /* transform: scaleY(1.6);   Y Axis me bada hoga 1.6 times  */
+            /* transform: scale3d();   3D me bada hoga ye  */
+            /* transform: skew(5deg);  Dono kone se pakad le khich diyaa  */
+            /* transform: skewY(5deg);  Dono kone se pakad le khich diyaa Y Axis me lekin Z axis me nhi lgta ye  */
+            /* transform: translateX(50%);   50% se ye aage badg jayega ye px me bhi ho skta h */
+            /* transform: translateY(50%);   50% se ye niche badg jayega ye px me bhi ho skta h */
+            /* transform: translateY(100%) skewX(40deg) translateX(45%);   Isme ek sath me tino trah se laga skte hai translate ki property  */
+            /* transform: translateY(-100%) skewX(40deg) translateX(45%);   Isme ek sath me tino trah se laga skte hai translate ki property  */
+            transform: rotate(0.125turn);
+        }
+
+        .container{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
